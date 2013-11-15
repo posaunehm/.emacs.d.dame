@@ -1,0 +1,3 @@
+[submodule "elisp/init-loader"]
+	path = elisp/init-loader
+	url = https://github.com/emacs-jp/init-loader.git
