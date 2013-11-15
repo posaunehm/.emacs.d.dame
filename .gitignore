@@ -4,3 +4,4 @@ shellenv.el
 ac-comphist.dat
 *.elc
 auto-save-list
+server/

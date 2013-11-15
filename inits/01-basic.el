@@ -31,14 +31,6 @@
 (cua-mode t)
 (setq cua-enable-cua-keys nil) ;cua独自のkeyを無効化
 
-;; load environment value
-(load-file (expand-file-name "~/.emacs.d/shellenv.el"))
-(dolist (path (reverse (split-string (getenv "PATH") ":")))
-  (add-to-list 'exec-path path))
-
-;; color-theme
-(load-theme 'manoj-dark t)
-
 ;; add +x permission if it includes shebang
 (add-hook 'after-save-hook 'my-chmod-script)
 (defun my-chmod-script() (interactive) (save-restriction (widen)
