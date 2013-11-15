@@ -18,6 +18,9 @@
 ;;空白やタブ文字を強調表示
 (when (require 'jaspace nil t))
 
+;;scratchの初期メッセージをなしに
+(setq initial-scratch-message "")
+
 ;; フォントの設定
 (when (>= emacs-major-version 23) 
   (set-face-attribute 'default nil :family "Yutapon coding Regular" :height 140)
@@ -25,3 +28,7 @@
    nil 'japanese-jisx0208
    (font-spec :family "Yutapon coding Regular"))
   )
+
+;; color-theme
+(load-theme 'manoj-dark t)
+(enable-theme 'manoj-dark)

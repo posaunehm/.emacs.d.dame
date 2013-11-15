@@ -3,4 +3,7 @@ shellenv.el
 .mc-lists.el
 ac-comphist.dat
 *.elc
-auto-save-list
+server/
+.DS_Store
+elpa/archives/
+auto-save-list/
