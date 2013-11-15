@@ -7,3 +7,5 @@ server/
 .DS_Store
 elpa/archives/
 auto-save-list/
+server/
+
