@@ -28,7 +28,8 @@
 (require 'ess-site)
 (require 'helm-R)
 
-
-
+(load "pandoc-mode")
+(add-hook 'markdown-mode-hook 'turn-on-pandoc)
+(setq pandoc-binary "pandoc")
 
 

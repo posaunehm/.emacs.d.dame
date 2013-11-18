@@ -1,3 +1,6 @@
 [submodule "elisp/init-loader"]
 	path = elisp/init-loader
 	url = https://github.com/emacs-jp/init-loader.git
+[submodule "elisp/pandoc-mode"]
+	path = elisp/pandoc-mode
+	url = https://github.com/joostkremers/pandoc-mode.git
