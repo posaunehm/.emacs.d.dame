@@ -15,4 +15,9 @@
   (add-to-list 'exec-path path))
 
 (when (>= emacs-major-version 23) 
-  (set-face-attribute 'default nil :family "Yutapon coding Regular" :height 200))
+  (set-face-attribute 'default nil :family "Yutapon coding Regular" :height 200)
+  (set-fontset-font
+   nil 'japanese-jisx0208
+   (font-spec :family "Yutapon coding Regular"))
+  )
+

@@ -42,3 +42,5 @@
 								      (message "Wrote %s (chmod +x)" name)
 								      ))
 							   )))
+;; redo
+(require 'redo+)

@@ -17,7 +17,9 @@
 	    (normal-top-level-add-subdirs-to-load-path))))))
 
 ;;loadpathに追加
-(add-to-load-path "elisp" "conf" "public_repos")
+(add-to-load-path "elisp" "conf" "public_repos" "elpa")
+
+
 
 ;;init-loader
 (require 'init-loader)
@@ -31,5 +33,6 @@
 (load "pandoc-mode")
 (add-hook 'markdown-mode-hook 'turn-on-pandoc)
 (setq pandoc-binary "pandoc")
+
 
 
