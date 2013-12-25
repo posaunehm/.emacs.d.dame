@@ -6,3 +6,6 @@
   (setq locale-coding-system 'cp932)
   (setq w32-lwindow-modifier 'super)
   )
+
+;;disable auto-fill-mode
+(auto-fill-mode -1)

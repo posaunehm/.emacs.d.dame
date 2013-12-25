@@ -1,4 +1,4 @@
-;;  -*- coding: utf-8-unix -*-
+﻿;;  -*- coding: utf-8-unix -*-
 ;; init.el
 ;;
 
@@ -33,6 +33,5 @@
 (load "pandoc-mode")
 (add-hook 'markdown-mode-hook 'turn-on-pandoc)
 (setq pandoc-binary "pandoc")
-
 
 
