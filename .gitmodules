@@ -4,3 +4,6 @@
 [submodule "elisp/pandoc-mode"]
 	path = elisp/pandoc-mode
 	url = https://github.com/joostkremers/pandoc-mode.git
+[submodule "elisp/cmd_mode"]
+	path = elisp/cmd_mode
+	url = http://pf.sourceforge.jp/gitroot/t/ta/tarancho/cmd_mode.git

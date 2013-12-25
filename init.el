@@ -1,4 +1,4 @@
-﻿;;  -*- coding: utf-8-unix -*-
+;;  -*- coding: utf-8-unix -*-
 ;; init.el
 ;;
 
@@ -35,3 +35,7 @@
 (setq pandoc-binary "pandoc")
 
 
+;;cmd-mode
+(autoload 'cmd-mode "cmd-mode" "CMD mode." t)
+(setq auto-mode-alist (append '(("\\.\\(cmd\\|bat\\)$" . cmd-mode))
+			      auto-mode-alist))
