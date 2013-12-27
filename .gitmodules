@@ -7,3 +7,6 @@
 [submodule "elisp/cmd_mode"]
 	path = elisp/cmd_mode
 	url = http://pf.sourceforge.jp/gitroot/t/ta/tarancho/cmd_mode.git
+[submodule "elisp/groovy-mode"]
+	path = elisp/groovy-mode
+	url = https://github.com/russel/Emacs-Groovy-Mode.git
