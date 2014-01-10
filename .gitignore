@@ -9,3 +9,5 @@ elpa/archives/
 auto-save-list/
 server/
 
+
+inits/99-private.el
