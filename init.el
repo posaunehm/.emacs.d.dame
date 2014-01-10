@@ -1,4 +1,4 @@
-;;  -*- coding: utf-8-unix -*-
+﻿;;  -*- coding: utf-8-unix -*-
 ;; init.el
 ;;
 
@@ -53,3 +53,7 @@
           '(lambda ()
              (require 'groovy-electric)
              (groovy-electric-mode)))
+
+;;; color-occur.el
+(require 'color-moccur)
+(setq moccur-split-word t) ;スペースで区切られた複数の単語にマッチさせる
