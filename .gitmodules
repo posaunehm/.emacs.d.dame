@@ -10,3 +10,9 @@
 [submodule "elisp/groovy-mode"]
 	path = elisp/groovy-mode
 	url = https://github.com/russel/Emacs-Groovy-Mode.git
+[submodule "elisp/haskell-mode"]
+	path = elisp/haskell-mode
+	url = https://github.com/haskell/haskell-mode.git
+[submodule "elisp/emacs-quickrun"]
+	path = elisp/emacs-quickrun
+	url = https://github.com/syohex/emacs-quickrun.git
