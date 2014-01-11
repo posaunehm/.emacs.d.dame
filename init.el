@@ -1,4 +1,4 @@
-﻿;;  -*- coding: utf-8-unix -*-
+;;  -*- coding: utf-8-unix -*-
 ;; init.el
 ;;
 
@@ -57,3 +57,24 @@
 ;;; color-occur.el
 (require 'color-moccur)
 (setq moccur-split-word t) ;スペースで区切られた複数の単語にマッチさせる
+
+;; ruby
+
+;; rsense
+(setq rsense-home (expand-file-name "~/rsense-0.3"))
+(add-to-list 'load-path (concat rsense-home "/etc"))
+(require 'rsense)
+ 
+;; C-c .で補完
+(add-hook 'ruby-mode-hook
+	 (lambda ()
+	   (local-set-key (kbd "C-c .") 'ac-complete-rsense)))
+;; auto-completeで自動補完
+(add-hook 'ruby-mode-hook
+	 (lambda ()
+	   (add-to-list 'ac-sources 'ac-source-rsense-method)
+	   (add-to-list 'ac-sources 'ac-source-rsense-constant)))
+ 
+ 
+;; quickrun
+(require 'quickrun)
