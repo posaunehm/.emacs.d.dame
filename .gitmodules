@@ -16,3 +16,6 @@
 [submodule "elisp/emacs-quickrun"]
 	path = elisp/emacs-quickrun
 	url = https://github.com/syohex/emacs-quickrun.git
+[submodule "ESS"]
+	path = ESS
+	url = https://github.com/emacs-ess/ESS.git
